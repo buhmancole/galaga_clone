@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CS 5410 Final</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" href="assets/player.png">
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<main>
+			<section id="mainmenu">
+				<h1>Galaga Clone</h1>
+				<button id="navgame">New Game</button>
+				<button id="navhighscores">High Scores</button>
+				<button id="navhowto">Guide/Controls</button>
+				<button id="navcredits">Credits</button>
+			</section>
+			<section id="game">
+				<canvas id="canvas" width="600" height="800"></canvas>
+			</section>
+			<section id="highscores">
+				<h1>High Scores</h1>
+				<div id="scores">
+					<p>None</p>
+				</div>
+			</section>
+			<section id="howto">
+				<h1>Instructions</h1>
+				<p>Shoot enemies, don't die<br><br>Hit escape to go back</p>
+				<h1>Controls</h1>
+				<div>
+					<div>
+						<label>Shoot:</label>
+						<button id="shoot"></button>
+					</div>
+					<div>
+						<label>Move Left:</label>
+						<button id="left"></button>
+					</div>
+					<div>
+						<label>Move Right:</label>
+						<button id="right"></button>
+					</div>
+				</div>
+			</section>
+			<section id="credits">
+				<h1>Credits</h1>
+				<p>Made by Cole Buhman (A02228854) for CS 5410</p>
+			</section>
+		</main>
+		
+		<script data-main="scripts/loader" src="scripts/require.js"></script>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "5410final",
+  "version": "1.0.0",
+  "description": "Galaga",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Cole Buhman",
+  "license": "ISC"
+}

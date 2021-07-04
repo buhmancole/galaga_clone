@@ -1,0 +1,65 @@
+body {
+    font: 20px Arial, sans-serif;
+    display: flex;
+    margin: 10px 0;
+    background-color: darkslategray;
+}
+
+main {
+    margin: 10px auto;
+}
+
+section {
+    width: 600px;
+    flex: 1 1;
+    display: none;
+    flex-flow: column;
+    border: 1px solid black;
+    background-color: white;
+}
+
+section#game {
+    width: 702px;
+    height: 936px;
+}
+
+section.active {
+    display: flex;
+}
+
+div {
+    display: flex;
+    text-align: center;
+}
+
+section > div {
+    width: 300px;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+
+h1, h2 {
+    margin: 20px auto;
+}
+
+p, span {
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+
+span {
+    font: 24px Arial, sans-serif;
+}
+
+label, input, button {
+    font-size: 20px;
+    flex: 1;
+    padding: 5px;
+    margin: 0 10px 10px 10px;
+}
