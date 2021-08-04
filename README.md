@@ -1,0 +1,1 @@
+To run this game, open the command line and type npm start, then go to localhost:3000 in your browser.
